@@ -141,10 +141,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="imp.cpp" />
+    <ClCompile Include="studentTypeImp.cpp" />
+    <ClCompile Include="personTypeImp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="studentType.h" />
+    <ClInclude Include="personType.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\Downloads\Chapter 12 In-Class Lab-Classes.txt" />
